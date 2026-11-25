@@ -1,5 +1,6 @@
-## v1.0
-### Changed
-- Added a minimum length requirement of 10 characters for passwords
-- Changed email validation to require both "@" and "." in the email address
-- Changed vowel counting to include both lowercase and uppercase vowels
+## [1.0] - 2023-10-05
+
+### Added
+- Password validation now requires at least 10 characters (`check_password` function) (#1)
+- Email validation now checks for both `@` and `.` in the string (`is_valid_email` function) (#5)
+- Count uppercase vowels in a string now uses a more concise expression (`count_vowels` function) (#6)
