@@ -1,2 +1,2 @@
 def count_vowels(text):
-    return sum(1 for c in text if c in "aeiouAEIOU")
+    return sum(c in "aeiouAEIOU" for c in text)
